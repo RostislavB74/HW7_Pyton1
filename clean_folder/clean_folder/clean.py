@@ -3,7 +3,7 @@ import sys
 import shutil
 from pathlib import Path
 import uuid
-from normalize import normalize
+# from normalize import normalize
 
 extensions = {
     'video': ['.mp4', '.mov', '.avi', '.mkv'],
@@ -78,4 +78,4 @@ def sort_folder(path: Path) -> None:
 
 
 if __name__ == "__main__":
-    print(main())
+    main()
