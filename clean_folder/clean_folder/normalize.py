@@ -25,4 +25,4 @@ def normalize(file_for_translate: str) -> str:
 
 # normalize(file_for_translate)
 if __name__ == "__main__":
-    print(normalize("****Привіт-Світ%****"))
+    normalize()

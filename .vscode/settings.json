@@ -1,0 +1,3 @@
+{
+  "python.analysis.extraPaths": ["./clean_folder/clean_folder"]
+}

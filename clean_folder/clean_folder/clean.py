@@ -2,8 +2,8 @@ import os
 import sys
 import shutil
 from pathlib import Path
-import uuid
-# from normalize import normalize
+# import uuid
+from normalize import normalize
 
 extensions = {
     'video': ['.mp4', '.mov', '.avi', '.mkv'],
@@ -22,6 +22,7 @@ def del_empty_dirs(path):
             del_empty_dirs(a)
             if not os.listdir(a):
                 os.rmdir(a)
+
                 print(a, 'видалена')
 
 
